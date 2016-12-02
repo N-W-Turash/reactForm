@@ -34,7 +34,7 @@ class App extends React.Component {
     }
 
     handleSelectChange(event) {
-        this.setState({selectVal: event.target.value});
+        this.setState({checkVal: event.target.value});
     }
 
     handleCheckedChange() {
